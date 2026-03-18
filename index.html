@@ -33,10 +33,19 @@ body {
   justify-content: center;
 
   min-height: 100vh;
-  height: 100vh;
-  padding: 20px;
-  background: url('background_image.jpg') center / cover no-repeat;
+  min-height: 100svh;
+  padding: 0 20px;
 }
+  .section {
+    min-height: 100vh;
+    min-height: 100svh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: url('background_image.jpg') center / cover no-repeat;
+  }
 
 /* Fine control for different screen sizes */
 @media (max-width: 768px) {
@@ -159,6 +168,7 @@ h1 {
 
 <body>
 
+<div class="section">
 <div class="card">
 
 <h1>Kartik Saravanan</h1>
@@ -192,6 +202,7 @@ AIC RAISE
   Instagram ↗
 </a>
 
+</div>
 </div>
 
 </body>
